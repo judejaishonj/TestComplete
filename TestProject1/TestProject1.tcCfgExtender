@@ -21,13 +21,9 @@
 	<Node name="root">
 		<Node name="data">
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
-				<Prp name="activity" type="S" value="{424D92B2-658D-4CDE-A203-3390FC82DD69}"/>
+				<Prp name="activity" type="S" value="{BB873A79-9984-4031-8FF8-791C3CDA34D9}"/>
 			</Node>
-			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
-				<Node name="{456098fd-da53-4951-ac57-9469dcda4660}">
-					<Prp name="hash" type="I" value="1"/>
-				</Node>
-			</Node>
+			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}"/>
 			<Node name="{415b5aa1-c6ac-4d4d-9a53-063a521a45ab}">
 				<Node name="workspace">
 					<Node name="0">
@@ -51,6 +47,7 @@
 					</Node>
 					<Node name="1">
 						<Node name="editor">
+							<Node name="{4f9540d5-d9ab-44cd-8dca-73f5f2e7a572}"/>
 							<Node name="{8c45957c-f4b3-4dd7-9212-49cbd350f69f}">
 								<Prp name="key" type="S" value="{7754BF4B-93E1-403B-8910-BEEDDC52ADF9}"/>
 							</Node>
@@ -67,6 +64,7 @@
 								</Node>
 								<Prp name="key" type="S" value="{C977A1E4-B7D8-4154-8F36-71B224576CCF}"/>
 							</Node>
+							<Node name="{eb7c9d82-bc63-4167-ad95-a6b053bbda71}"/>
 							<Prp name="editor" type="S" value="{C06196FF-7EB2-4B57-9226-D5B03CB8076C}"/>
 							<Prp name="focused" type="S" value="{C977A1E4-B7D8-4154-8F36-71B224576CCF}"/>
 						</Node>
@@ -162,6 +160,7 @@
 						<Prp name="collapsed" type="B" value="0"/>
 						<Prp name="top" type="I" value="0"/>
 					</Node>
+					<Node name="{486ef472-a2cc-4765-85a3-43877236b64c}"/>
 					<Node name="{6750aaae-2f8f-484f-91b7-93f59eaa7072}">
 						<Node name="0">
 							<Prp name="bottom" type="I" value="1"/>
@@ -202,6 +201,7 @@
 						<Prp name="collapsed" type="B" value="0"/>
 						<Prp name="top" type="I" value="0"/>
 					</Node>
+					<Node name="{bb873a79-9984-4031-8ff8-791c3cda34d9}"/>
 				</Node>
 			</Node>
 			<Node name="{dadeeeea-7bf7-4f7b-98d1-fc8ffe5fedae}">
@@ -213,6 +213,7 @@
 					<Node name="testproject1">
 						<Node name="keywordtests"/>
 						<Node name="script"/>
+						<Node name="stores"/>
 					</Node>
 				</Node>
 				<Node name="testproject1 logs">

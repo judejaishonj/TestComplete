@@ -3,5 +3,7 @@
 	<children>
 		<child name="Unit1" key="{9B4BC9D9-C32F-4270-AF9F-E3BF8DA516DD}" path="Unit1.py" />
 		<child name="pyintro" key="{424D92B2-658D-4CDE-A203-3390FC82DD69}" path="pyintro.py" />
+		<child name="pyclass" key="{486EF472-A2CC-4765-85A3-43877236B64C}" path="pyclass.py" />
+		<child name="Checkpoints" key="{BB873A79-9984-4031-8FF8-791C3CDA34D9}" path="Checkpoints.py" />
 	</children>
 </Root>

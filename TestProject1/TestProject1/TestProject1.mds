@@ -4,6 +4,7 @@
 		<child name="NameMapping" key="{05557751-6D9E-4E3A-ADEE-6F5A363C7B6D}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
 		<child name="Script" key="{456098FD-DA53-4951-AC57-9469DCDA4660}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
 		<child name="KeywordTests" key="{47DFA320-38EB-4981-A920-92FFEABFA9C3}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
+		<child name="Stores" key="{8321B3DD-E16E-48F6-9252-6ED4AD5B50F7}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
 	</children>
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{99F66A5E-7AFE-4FFB-8B74-91A6F21CB1D8}" version="14">

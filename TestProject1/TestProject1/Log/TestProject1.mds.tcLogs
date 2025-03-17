@@ -93,6 +93,51 @@
 				<Prp name="relpath" type="S" value="14-03-2025_18_04_12_772\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
+			<Node name="log idx=0008">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45733.4782122106"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{6EA50E36-6F4B-4EF9-BFC8-60E43EA4120B}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [pyintro\exception]"/>
+				<Prp name="relpath" type="S" value="17-03-2025_11_28_37_536\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0009">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45733.5180916782"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F82F708E-4946-4DCC-901B-1C3E626D24B6}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [pyclass\test]"/>
+				<Prp name="relpath" type="S" value="17-03-2025_12_26_03_121\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0010">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45733.7221154977"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{37CB6F7C-6B00-4BAF-A51B-29D431FE2749}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Checkpoints\checkpoint]"/>
+				<Prp name="relpath" type="S" value="17-03-2025_17_19_50_779\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0011">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45733.7335695023"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{C3436149-EA00-4090-BB9A-9FA785BB5F11}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Checkpoints\checkmyfile]"/>
+				<Prp name="relpath" type="S" value="17-03-2025_17_36_20_405\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0012">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45733.7551273843"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F701A4F2-0B21-454E-A6A9-9A5D21BFA9EF}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Checkpoints\checkmyproperty]"/>
+				<Prp name="relpath" type="S" value="17-03-2025_18_07_23_6\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>

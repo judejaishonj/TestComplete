@@ -1,0 +1,5 @@
+﻿def checkpoint():
+  Regions.OrdersView.Check(Aliases.Orders.MainForm.OrdersView)
+  
+def checkmyfile():
+  Files.Good_morning_txt.Check("C:\\Users\\Jude Jaishon\\Documents\\Good morning2.txt")

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" version="15.0">
+	<children>
+		<child name="OrdersView" key="{00B5A1EC-FF65-46BC-A719-E702B810C731}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="OrdersView" ID="{00B5A1EC-FF65-46BC-A719-E702B810C731}" FileName="Regions\OrdersView.png" Update="False" />
+		</child>
+	</children>
+</Root>

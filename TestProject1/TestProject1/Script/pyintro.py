@@ -7,3 +7,14 @@
 def mydict():
   product_dict={"Testcomplete":1000, "python":90}
   Log.Message(product_dict["Testcomplete"])
+  
+def exception():
+  try:
+    Log.Message(1/0)
+  except:
+    Log.Message("Can't divide by zero")
+    
+
+ 
+
+  

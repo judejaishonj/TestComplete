@@ -260,6 +260,67 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="Orders" Key="{CA311B37-978F-4480-9B47-900FDDDD056A}">
+						<TypeInfo Item0="{E869C42D-4426-47FE-A237-8B98CCB4F448}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Orders" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="MainForm" Key="{0D67F429-0D1B-471E-B702-BFA4D5436D2F}">
+								<Image FileName="291582763" Left="0" Top="0" Right="912" Bottom="612" />
+								<TypeInfo Item0="{9C9F8FD7-0AEB-4B9F-923A-DABD73486AE6}" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="MainForm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="OrdersView" Key="{1882CFA6-E499-469B-814C-335175BA7025}">
+										<Image FileName="291582763" Left="12" Top="119" Right="900" Bottom="568" />
+										<TypeInfo Item0="{B1CC2A15-98B3-425C-A155-69A709E4D4C1}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="OrdersView" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="OrderForm" Key="{586B6A82-FF5B-4526-9AD0-182BFB0110DB}">
+								<Image FileName="-888710725" Left="0" Top="0" Right="732" Bottom="717" />
+								<TypeInfo Item0="{9C9F8FD7-0AEB-4B9F-923A-DABD73486AE6}" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="OrderForm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Group" Key="{586D4BD0-A084-4B2E-AE1D-59E4E8896421}">
+										<Image FileName="-888710725" Left="17" Top="51" Right="713" Bottom="651" />
+										<TypeInfo Item0="{C90B5E5F-093F-4C58-97DD-81E512E692D6}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="Group" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Customer" Key="{61FF188A-E33E-47CA-BF32-09DAB9F530B0}">
+												<Image FileName="-888710725" Left="173" Top="291" Right="701" Bottom="321" />
+												<TypeInfo Item0="{264ECA98-5636-4929-9A71-27BDC4843856}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="Customer" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 		</Children>
@@ -294,6 +355,16 @@
 				<Child Name="DesktopWindowXamlSource2" Owner="{590B4D52-D1DA-4A19-8A5C-BCC9D7004B1C}" />
 				<Child Name="NotepadTextBox" Owner="{31C1658E-ADD0-4821-903B-100AB5294F29}">
 					<Child Name="RichEditD2DPT" Owner="{94EAAF13-5D00-420C-8255-9D70B726C4D2}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="Orders" Owner="{CA311B37-978F-4480-9B47-900FDDDD056A}">
+			<Child Name="MainForm" Owner="{0D67F429-0D1B-471E-B702-BFA4D5436D2F}">
+				<Child Name="OrdersView" Owner="{1882CFA6-E499-469B-814C-335175BA7025}" />
+			</Child>
+			<Child Name="OrderForm" Owner="{586B6A82-FF5B-4526-9AD0-182BFB0110DB}">
+				<Child Name="Group" Owner="{586D4BD0-A084-4B2E-AE1D-59E4E8896421}">
+					<Child Name="Customer" Owner="{61FF188A-E33E-47CA-BF32-09DAB9F530B0}" />
 				</Child>
 			</Child>
 		</Child>
