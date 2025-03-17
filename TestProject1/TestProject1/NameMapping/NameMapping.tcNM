@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{6286C351-20EA-4DBD-9576-5B20DB304074}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{EB021041-B0A4-4BB5-83A6-12E4D32911AD}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{85C05D34-1638-4D8E-A70F-04F81B68A546}">
+								<Image FileName="-797159025" Left="-11" Top="-11" Right="1931" Bottom="1019" />
+								<TypeInfo Item0="{22974E84-7584-4BF8-B2CE-F9DFB4F4E73D}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{1A131CBA-AA35-4C47-94C5-20B3557F146B}">
+										<Image FileName="-1229475389" Left="0" Top="130" Right="1920" Bottom="1008" />
+										<TypeInfo Item0="{48E9C133-7615-4FED-B95C-847A79B5ABA9}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageMasteringTestcompleteWithPyt" Key="{2D9420A1-2226-4F06-BD19-45DAFAFDDA2E}">
+								<Image FileName="-67800831" Left="0" Top="130" Right="1920" Bottom="1007" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.udemy.com/course/mastering-testcomplete-with-python-2023/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="headerSkipToContent" Key="{8AAB0F95-3D9A-4B3A-8437-0D0994B62ADF}">
+										<Image FileName="-1575059117" Left="0" Top="130" Right="1897" Bottom="238" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(., &apos;Skip to content&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;ud-header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkU341PopperTrigger17" Key="{9B3C937B-9589-42CC-A42C-5FD36E008943}">
+										<Image FileName="-1575059117" Left="1572" Top="154" Right="1717" Bottom="214" />
+										<Selectors>
+											<Selector>
+												<Value Value="#u341-popper-trigger--17" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;My learning&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/a[contains(@class, &apos;ud-btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMyLearning" Key="{1A5A8BF0-A94F-471D-9756-9283ED4AF63B}">
+										<Image FileName="-1575059117" Left="1590" Top="169" Right="1699" Bottom="198" />
+										<TypeInfo Item0="{05922032-56FE-4B87-8594-A2F850FBF091}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;My learning&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/a/span[contains(@class, &apos;ud-text-sm&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;u341-popper-trigger--17&apos;]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageMoolyaGoogleSearch" Key="{4764253E-28F4-444E-A418-E85878D47ABB}">
+								<Image FileName="-1719066784" Left="0" Top="130" Right="1920" Bottom="1008" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.google.com/search*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnode" Key="{2E206F0A-A1AC-455B-B307-294D7F50A276}">
+										<Image FileName="579902291" Left="136" Top="432" Right="852" Bottom="479" />
+										<TypeInfo Item0="{05922032-56FE-4B87-8594-A2F850FBF091}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3[.=&apos;Moolya: Software Testing Company | Preventing Bugs&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div//a/h3[contains(@class, &apos;LC20lb&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;moolya.com&apos;)]/h3" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div//div//a/h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageMoolyaGoogleSearch2" Key="{E0B5945A-D7BF-42E0-AC4D-DF77C8FF2A50}">
+								<Image FileName="-1719066784" Left="0" Top="130" Right="1920" Bottom="1008" />
+								<TypeInfo Item0="{8A7A02B1-33C8-4623-B7A5-5920527930D2}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://moolya.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkAboutUs" Key="{E9776378-785B-444A-9355-A9FCD76F71F0}">
+										<Image FileName="-347387112" Left="680" Top="379" Right="936" Bottom="427" />
+										<TypeInfo Item0="{05922032-56FE-4B87-8594-A2F850FBF091}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;About Us&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{3DCA2679-D799-48D8-859F-2CE24EB90B5A}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{81AF1D8A-C2B5-429F-A761-F1B1051996F6}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{0451C884-9319-4863-9B17-31865C09FCB1}">
+										<TypeInfo Item0="{48E9C133-7615-4FED-B95C-847A79B5ABA9}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="Notepad" Key="{A04C117A-7535-44ED-A04B-63DD4BE11AC4}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Notepad" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndNotepad" Key="{8154F536-C508-4133-9409-AA41B1CACE2B}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Notepad" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{687466F5-5B04-409C-8E09-BD2AF4FBFD4A}">
+										<TypeInfo Item0="{48E9C133-7615-4FED-B95C-847A79B5ABA9}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="4" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="DesktopWindowXamlSource2" Key="{590B4D52-D1DA-4A19-8A5C-BCC9D7004B1C}">
+										<TypeInfo Item0="{48E9C133-7615-4FED-B95C-847A79B5ABA9}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="3" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="NotepadTextBox" Key="{31C1658E-ADD0-4821-903B-100AB5294F29}">
+										<Image FileName="20643428" Left="9" Top="112" Right="674" Bottom="671" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="NotepadTextBox" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="RichEditD2DPT" Key="{94EAAF13-5D00-420C-8255-9D70B726C4D2}">
+												<Image FileName="20643428" Left="9" Top="112" Right="674" Bottom="671" />
+												<TypeInfo Item0="{FAFCF8B2-DA67-42ED-8FA9-2BF0D5AB42D1}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="RichEditD2DPT" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{EB021041-B0A4-4BB5-83A6-12E4D32911AD}">
+			<Child Name="BrowserWindow" Owner="{85C05D34-1638-4D8E-A70F-04F81B68A546}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{1A131CBA-AA35-4C47-94C5-20B3557F146B}" />
+			</Child>
+			<Child Name="pageMasteringTestcompleteWithPyt" Owner="{2D9420A1-2226-4F06-BD19-45DAFAFDDA2E}">
+				<Child Name="headerSkipToContent" Owner="{8AAB0F95-3D9A-4B3A-8437-0D0994B62ADF}">
+					<Child Name="linkU341PopperTrigger17" Owner="{9B3C937B-9589-42CC-A42C-5FD36E008943}">
+						<Child Name="textnodeMyLearning" Owner="{1A5A8BF0-A94F-471D-9756-9283ED4AF63B}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageMoolyaGoogleSearch" Owner="{4764253E-28F4-444E-A418-E85878D47ABB}">
+				<Child Name="textnode" Owner="{2E206F0A-A1AC-455B-B307-294D7F50A276}" />
+			</Child>
+			<Child Name="pageMoolyaGoogleSearch2" Owner="{E0B5945A-D7BF-42E0-AC4D-DF77C8FF2A50}">
+				<Child Name="linkAboutUs" Owner="{E9776378-785B-444A-9355-A9FCD76F71F0}" />
+			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{3DCA2679-D799-48D8-859F-2CE24EB90B5A}">
+			<Child Name="wndShell_TrayWnd" Owner="{81AF1D8A-C2B5-429F-A761-F1B1051996F6}">
+				<Child Name="DesktopWindowXamlSource" Owner="{0451C884-9319-4863-9B17-31865C09FCB1}" />
+			</Child>
+		</Child>
+		<Child Name="Notepad" Owner="{A04C117A-7535-44ED-A04B-63DD4BE11AC4}">
+			<Child Name="wndNotepad" Owner="{8154F536-C508-4133-9409-AA41B1CACE2B}">
+				<Child Name="DesktopWindowXamlSource" Owner="{687466F5-5B04-409C-8E09-BD2AF4FBFD4A}" />
+				<Child Name="DesktopWindowXamlSource2" Owner="{590B4D52-D1DA-4A19-8A5C-BCC9D7004B1C}" />
+				<Child Name="NotepadTextBox" Owner="{31C1658E-ADD0-4821-903B-100AB5294F29}">
+					<Child Name="RichEditD2DPT" Owner="{94EAAF13-5D00-420C-8255-9D70B726C4D2}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

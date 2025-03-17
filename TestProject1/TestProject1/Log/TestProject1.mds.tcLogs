@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45730.4939044907"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{47045E5F-FB5B-40D3-B29A-521BCFC90AFF}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Unit1\Test1]"/>
+				<Prp name="relpath" type="S" value="14-03-2025_11_51_13_348\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45730.5246964699"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{36B8032D-628D-45B5-817B-0CF731FC966F}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Unit1\Test3]"/>
+				<Prp name="relpath" type="S" value="14-03-2025_12_35_33_775\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45730.5263091667"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{17E0FD0F-B130-4B24-9A2C-13048EE81B11}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Unit1\Test3]"/>
+				<Prp name="relpath" type="S" value="14-03-2025_12_37_53_112\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45730.740061493"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{EEF37561-9086-44FC-96E8-049E01A47910}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [pyintro\calc]"/>
+				<Prp name="relpath" type="S" value="14-03-2025_17_45_41_313\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45730.7475710185"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{4C126F1B-82F8-4F59-9E12-F37049F62152}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [pyintro\mydict]"/>
+				<Prp name="relpath" type="S" value="14-03-2025_17_56_30_136\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45730.7515007755"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A37EBB04-2117-43C9-8233-CF6B50ABA7A8}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [pyintro\mydict]"/>
+				<Prp name="relpath" type="S" value="14-03-2025_18_02_09_667\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0006">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45730.7519089468"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{E266F9C1-CF1C-419C-B10F-C3DB80140248}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [pyintro\mydict]"/>
+				<Prp name="relpath" type="S" value="14-03-2025_18_02_44_935\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0007">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45730.7529256019"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{C5F36B00-ECEB-4E01-848C-7D858C6DB783}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [pyintro\calc]"/>
+				<Prp name="relpath" type="S" value="14-03-2025_18_04_12_772\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>
